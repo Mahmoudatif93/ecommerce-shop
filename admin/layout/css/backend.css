@@ -1,0 +1,396 @@
+/* start main rules */
+
+
+body{
+	background-color:#395037;
+	font-size: 16px;
+	height: 100%;
+
+}
+
+
+
+/* start dropdown links */
+
+.lin{
+	   background-color:#2F3640;
+	}
+
+.lin a:hover{
+		   background-color:#6D6E71;
+
+
+}
+/* end dropdown links */
+.asterix{
+
+	font-size: 30px;
+	position: absolute;
+	right: 30px;
+	top: 1px;
+	color:#D20707;
+}/*en0 main rules */
+
+/* start login form */
+.login{
+
+	width:300px;
+	margin: 100px auto;
+}
+.login h4{
+	color: #888;
+}
+.login input{
+
+	margin-bottom: 10px;
+}
+
+.login .form-control{
+
+	background-color: #e5e5e5;
+}
+
+
+.login .btn{
+	background-color: #008dde;
+}
+
+
+/* end login form */
+
+
+
+/* start bootstrap edit */
+.navbar{
+
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.dropdown-menu >li >a:focus,
+.dropdown-menu >li >a:hover{
+	color: #fff;
+	background-color: #8e44ad;
+}
+
+
+.form-control{
+	position: relative;
+}
+/* end bootstrap edit */
+
+/*start Dashboard page*/
+.home-states .state{
+	
+	padding: 20px;
+	font-size: 15px;
+	color: #fff;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.home-states .state i{
+	font-size: 30px;
+	
+}
+
+.home-states .state i{
+	font-size: 70px;
+	top: 35px;
+	left: 30px;
+}
+.home-states .state .info{
+float: right;
+}
+.home-states .state a{
+	color: #fff;
+}
+.home-states .state a:hover{
+	text-decoration: none;
+}
+.home-states .state span{
+	display: block;
+	font-size:60px;
+}
+
+.home-states .st-member{
+	background-color: #3498db;
+
+}
+
+.home-states  .st-Pending{
+	background-color: #c0392b;
+}
+.home-states  .st-Items{
+	background-color: #d35400;
+}
+.home-states .st-Comments{
+	background-color: #8e44ad;
+}
+
+.latest{
+	margin-top: 30px;
+
+}
+.latest .toggle-info{
+	color: #999;
+}
+.latest .toggle-info:hover{
+	color: #444;
+	cursor:pointer;
+}
+
+
+.latest-users{
+
+	margin-bottom: 0;
+}
+.latest-users li{
+	padding: 10px ;
+	overflow: hidden;
+	
+}
+
+.latest-users li:nth-child(odd){
+	background-color: #eee;
+}
+
+.latest-users .btn-success .btn-info{
+padding: 2px 8px;
+
+}
+.latest-users  .btn-info{
+
+	margin-right: 5px;
+}
+
+
+
+.latest .comment-box{
+	margin:5px 0 5px;
+}
+
+
+.latest .comment-box .member-n,.latest .member-c{
+float: left;
+}
+.latest .comment-box  .member-n{
+	width: 80px;
+	text-align: center;
+	margin-right: 20px;
+	position: relative;
+	top: 10PX;
+	}
+
+	.latest .comment-box  .member-c{
+	width: : calc(100%-100px);
+	background-color: #E5F0FF;
+	padding: 10px;
+	position: relative;
+	}
+	.latest .comment-box  .member-c:before{
+content: "";
+display: block;
+position: absolute;
+left:-28px;
+top: 7px;
+width: 0px;
+height: 0px;
+border-style: solid;
+border-color:transparent #E5F0FF transparent transparent;
+border-width: 15px;
+
+	}
+/*end Dashboard page*/
+
+
+/*start memebers page*/
+h1{
+font-size: 55px;
+margin: 40px 0;
+font-weight: bold;
+color: #666;
+
+}
+
+.show-pass{
+	position: absolute;
+	top: 6px;
+	right: -30px;
+
+}
+.manage-members img{
+
+	width: 50px;
+	height: 50px;
+}
+/*manage tables*/
+.main-table {
+	-webkit-boxshadow:0 3px 10px #ccc;
+	-moz-boxshadow:0 3px 10px #ccc;
+	boxshadow:0 3px 10px #ccc;
+}
+.main-table td{
+	background-color: #fff;
+	vertical-align: middle !important;
+
+}
+.main-table tr:first-child td{/*you can use thead*/
+	background-color:#333;
+	color: #fff;
+}
+.main-table .btn{
+
+	padding: 3px 10px;
+}
+.activate{
+	margin-left: 5px;
+}
+/*end memebers page*/
+
+/* start category page*/
+.Categories.card-body{
+	padding: 0;
+
+}
+.Categories .panel-heading{
+	color: #959595;
+	font-weight: bold;
+}
+
+.Categories .panel-heading i{
+ position: relative;
+ top: 1px;
+
+}
+
+.Categories .option a{
+
+	color: #888;
+	text-decoration: none;
+}
+.Categories .option span{
+
+	color: #888;
+	cursor: pointer;
+}
+.Categories .option .active{
+
+	color: #F00;
+}
+.Categories hr{
+	margin-top:0;
+	margin-bottom:0;
+}
+.Categories .cat{
+	padding: 10px;
+	position: relative;
+	overflow:hidden;
+}
+.Categories .cat:hover{
+	background-color:#eee;
+}
+.Categories .cat:hover .hidden-buttons{
+	right: 10px;
+}
+.Categories .cat .hidden-buttons {
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
+
+	position: absolute;
+	top: 15px;
+	right: -180px;
+}
+.Categories .cat .hidden-buttons a{
+	margin-right: 5px;
+}
+.Categories .cat h3{
+	margin:0;
+	cursor: pointer;
+	font-weight: bold;
+	color: #6A6A6A; 
+}
+.Categories .full-view p{
+	margin: 10px 0;
+	color: #707070;
+}
+.Categories .cat:last-of-type ~ hr{
+display: none;
+}
+.Categories .cat .Visibility{
+	background-color: #d35400;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 6px;
+	border-radius: 6px;
+		font-weight: bold;
+
+}
+.Categories .cat .comments{
+	background-color: #2c3e50;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 6px;
+	border-radius: 6px;
+		font-weight: bold;
+
+}
+
+.Categories .cat .Advertisement{
+	background-color: #c0392b;
+	color: #fff;
+	padding: 4px 6px;
+	margin-right: 6px;
+	border-radius: 6px;
+		font-weight: bold;
+
+}
+.Categories .add-category{
+margin-bottom: 30px;
+margin-top: 10px
+
+}
+
+
+.Categories .child-cat{
+margin: 0 0 10px 40px;
+
+}
+
+.Categories .child-head{
+	margin:15px 10px 0;
+	font-weight: bold;
+	color: #2b7d86; 
+	font-size: 16px
+	font-family: sans-serif;
+}
+
+.Categories .child-a{
+	
+	    color: #f38b8b;
+	    font-size: 15px;
+    font-family:sans-serif;
+    font-weight: bolder;
+}
+.Categories .show-delete{
+
+	color: #f00;
+	display: none;
+}
+
+.Categories .child-cat li{
+margin-left: 20px;
+
+
+}
+
+.Categories .child-cat li:before{
+content:"-";
+
+}
+
+
+
+
+
+

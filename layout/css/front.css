@@ -1,0 +1,312 @@
+/* start main rules */
+
+body{
+	background-color:#292730;
+	font-size: 16px;
+	
+}
+
+
+/* start header menue*/
+.upper-bar{
+	background-color: #f000
+}
+/*end header menue*/
+/* start dropdown links */
+
+.lin{
+	   background-color:#2F3640;
+	}
+
+
+/* end dropdown links */
+.form-control{
+	position: relative;
+}
+.asterix{
+
+  font-size: 30px;
+    position: absolute;
+    right: 19px;
+    bottom: -9px;
+    color: #D20707;
+
+}
+
+.form-horizontal .asterix{
+
+	font-size: 25px;
+    position: absolute;
+    right: 19px;
+    bottom: -9px;
+    color: #D20707;
+
+}
+h1{
+font-size: 55px;
+margin: 40px 0;
+font-weight: bold;
+color: #666;
+}
+/*end main rules */
+
+
+
+
+/* start bootstrap edit */
+.navbar{
+
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.dropdown-menu >li >a:focus,
+.dropdown-menu >li >a:hover{
+	color: #fff;
+	background-color: #8e44ad;
+}
+
+
+.form-control{
+	position: relative;
+}
+/* end bootstrap edit */
+/* Start header*/
+.upper-bar{
+	padding: 8px;
+	background-color: #FFF;
+}
+
+.upper-bar .pull-right{
+	margin: 200px;
+}
+
+.upper-bar .my-info{
+
+	
+}
+.upper-bar .my-info img{
+
+    border-style: groove;
+
+    width: 45px;
+    height: 44px;
+
+}
+/*end header*/
+/*start login page*/
+.login-page form{
+	max-width: 350px;
+	margin: auto;
+}
+.login-page form input{
+	margin-bottom: 10px;
+}
+.login-page [data-class="login"].selected{
+	color:#1B67E8;
+}
+.login-page [data-class="signup"].selected{
+	color:#5cb85c;
+}
+
+.login-page h1{
+color: #C0C0C0;
+}
+.login-page h1 span{
+	cursor: pointer;
+}
+
+.login-page .signup{
+display: none;
+
+}
+/*end login page*/
+
+/*start categories page */
+.main-item{
+	padding-left: 53px
+}
+.item-box{
+	position: relative;
+	padding: 8px;
+
+
+}
+.item-box p {
+	height: 25px;
+	max-height: 44px;
+}
+
+.item-box .approve-status{
+	position: absolute;
+	top: 40px;
+	left: 0;
+	background-color: #B85a5a;
+	color: #FFF;
+	padding: 3px 5px;
+}
+
+.item-box .price-tag{
+	background-color: #4B4B4B;
+	padding: 2px 10px;
+	position: absolute;
+	left: 0;
+	top: 10px;
+	font-weight: bold;
+	color: #FFF;
+
+}
+
+
+.thumbnail .date{
+	text-align: right;
+	font-size: 13px;
+	color: #aaa;
+	font-weight: bold;
+}
+
+.card .date{
+	text-align: right;
+	font-size: 13px;
+	color: #aaa;
+	font-weight: bold;
+}
+
+/*end categories page */
+.block{
+	margin-top: 20px;
+
+}
+/*start profile page*/
+.information{
+	margin-top: 20px;
+}
+.information ul{
+	margin: 0;
+	padding: 0;
+}
+.information ul li{
+	padding: 10px;
+	}
+.information ul li:nth-child(odd){ 
+background-color: #EEE;
+}
+
+.information ul li span{
+	display: inline-block;
+	width: 120px;
+	
+}
+.information .btn{
+margin-top: 10px;
+
+}
+/*end profile page*/
+
+
+/* start show item page*/
+
+.item-info h2{
+	padding:5px;
+	margin: 0;
+}
+.item-info p{
+	padding:5px;
+	font-size: 20px
+}
+
+.item-info ul li{
+	padding: 10px;
+}
+
+.item-info ul li:nth-child(odd){ 
+background-color: #e8e8e8;
+}
+
+.item-info ul li span{
+	display: inline-block;
+	width: 120px;
+	
+}
+
+.add-comment h3{
+	margin: 0 0 10px;
+}
+.add-comment textarea{
+	display: block;
+	margin-bottom: 10px;
+	width: 500px;
+	height: 100px;
+}
+
+
+.comment-box{
+	margin-bottom: 20px;
+
+}
+.comment-box .img-thumbnail {
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 10.25rem;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+.comment-box .lead{
+background-color:#E6E7E8;
+position: relative;
+padding: 10px;
+font-size: 40px;
+font-family:sans-serif;
+font-style:italic;
+margin-top: 35px;
+
+}
+
+.comment-box .lead:before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 15px;
+	border-style: solid;
+	border-color: transparent #E6E7E8 transparent transparent ;
+	position: absolute;
+	left: -28px;
+	top:30px;
+	;
+	}
+
+
+	.items{
+		color:#8C8C8C;
+
+	}
+	.add-comment{
+		color: #DCE5E7
+	}
+
+/* end show item page*/
+
+
+
+/* start our custom*/
+
+.custom-hr{
+	border-top: 1px solid #C9C9C; 
+}
+
+/* end our custom*/
+.tag-head{
+	text-align: center;
+}
+
+
+.footer{
+position: fixed;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+}
